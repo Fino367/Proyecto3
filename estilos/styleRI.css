@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('/img/pexels-chanwalrus-941861.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: aliceblue;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+}
+.tituloformri{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    padding-top: 0;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+}
+.cajformu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blue;
+}
+.formregistroi{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.cajformuregistroi{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 2);
+    border-radius: 15px;
+    background-color: #0B1320;
+    height: 400px;
+}
+.tituloformri{
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    padding-top: 0;
+}
+.cajita{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    border: 1px solid #1C3F60;
+    background-color: #1C3F60;
+}
+.boton{
+    color: aliceblue;
+    background-color: #0B1320;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    border: 1px solid #1C3F60;
+}

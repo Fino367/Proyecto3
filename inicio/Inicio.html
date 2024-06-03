@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+  <title>iniciar sesion</title>
+  <link rel="stylesheet" href="/estilos/styleRI.css">
+</head>
+<body>
+  <div class="contenido">
+    <div class="formregistroi">
+        <form class="cajformuregistroi">
+            <div class="tituloformri">
+                <h2 class="tituloformri">Inicio de sesion</h2>
+            </div>
+            <label for="nombreuser">Nombre de usuario</label>
+            <input type="text" id="nombreuser" class="cajita">
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="contraseña" class="cajita">
+            <input type="submit" class="boton" value="Iniciar">
+        </form>
+    </div>
+  </div>
+  <div class="contenido" id="welcome" style="display: none;">
+    <div class="formregistroi">
+        <div class="tituloformri">
+            <h2 class="tituloformri">Bienvenido, <span id="user"></span>!</h2>
+            <button id="logout" class="boton">Cerrar Sesión</button>
+        </div>
+    </div>
+</div>
+
+<script src="/java.js"></script>
+  <footer>
+    <h3>Derechos reservados</h3>
+  </footer>
+</body>
+</html>

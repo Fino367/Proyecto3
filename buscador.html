@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/busca.css">
+    <title>Buscar Recetas</title>
+</head>
+<body>
+    <div class="contenedor">
+        <section class="formulario">
+            <h1 class="titulo">¿Buscar alguna Receta?</h1>
+            <label>Ingrese el plato que desea buscar</label>
+            <input type="text" id="nombre" class="for" placeholder="Ingrese la receta a buscar" required/>
+            <button onclick="buscar()">Buscar</button>
+        </section>
+        <div id="resultado" class="caj-cont">
+            <!-- Resultado de la búsqueda de recetas -->
+        </div>
+    </div>
+    <script src="recetas.js"></script>
+</body>
+</html>

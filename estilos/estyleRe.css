@@ -1,0 +1,69 @@
+.caj-rece{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #0B1320;
+    width: 98%;
+    padding: 30px 0px 20px 0px;
+}
+.caj-img{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+}
+.caj-img .caj-ab{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 10px #000;
+    background: linear-gradient(transparent 80%, #000), var(--i);
+    background-position: center;
+    background-size: cover;
+    z-index: 100;
+}
+.caj-img .caj-ab h6{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    font-size: 25px;
+}
+.caj-cont{
+    overflow: scroll;
+    position: absolute;
+    width: 85%;
+    height: 90%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    padding: 15px;
+    background: #1C3F60;
+    z-index: 90;
+    box-shadow: 0 5px 10px #000;
+    color: #fff;
+    transition: 5s;
+    border-radius: 20px
+
+}
+.caj-img:hover .caj-cont{
+    left: 100%;
+}
+.caj-cont .head{
+    padding: 5px 0;
+    border-bottom: solid 1px 
+    #fff;
+}
+.caj-cont .head .c-tit{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+.item{
+    color: #fff;
+}

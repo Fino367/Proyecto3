@@ -1,0 +1,31 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    
+}    
+.container h1{
+    text-align: center;
+}
+.container article ul{
+    list-style: circle;
+    text-align:left;
+}
+.container{
+    width: 700px;
+    max-height: min-content;
+    margin-left: 50px;
+    background-color: rgb(199, 208, 231);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.formulario{
+    width: 300px;
+    height: 150px;
+    background-color:antiquewhite;
+    border:2px solid black; 
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 300px;
+}
